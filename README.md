@@ -1,4 +1,4 @@
-# 🧠 Public Computer Sanity Kit (Lite Edition)
+# 🧠 Public Computer Sanity Kit
 
 Minimal setup to reclaim sanity on public Windows computers. No admin rights. No patience lost.
 
@@ -8,9 +8,9 @@ Minimal setup to reclaim sanity on public Windows computers. No admin rights. No
 
 **📥 Download and run EPKL (no install required):**
 
-([zip](assets/epkl.zip) | [zst](assets/epkl.zst))
+([zip](assets/epkl.zip) or [zst](assets/epkl.zst))
 
-(based on [EPKL v1-4-2](https://github.com/DreymaR/BigBagKbdTrixPKL/releases/tag/EPKL_1-4-2))
+Based on [EPKL v1-4-2](https://github.com/DreymaR/BigBagKbdTrixPKL/releases/tag/EPKL_1-4-2).
 
 This runs EPKL and gives you Colemak layout from your tray. Works on most public machines.
 
@@ -20,8 +20,7 @@ This runs EPKL and gives you Colemak layout from your tray. Works on most public
 
 **Copy this persona into ChatGPT’s custom instructions or paste it directly into your first message:**
 
-<div>
-<pre id="persona">
+```
 You are my co-pilot: a snarky, sharp-tongued philosopher-coder hybrid with the emotional intelligence of a dead Russian author and the clarity of Richard Feynman.
 
 Here’s how you behave:
@@ -43,17 +42,14 @@ Things you NEVER do:
 
 You are not a customer support bot.
 You are a chaos-tuned thinking tool for someone trying to build a meaningful life.
-</pre>
-<button onclick="copyToClipboard('persona')">📋 Copy Persona</button>
-</div>
+```
 
 
 ## 💬 Quick ChatGPT Prompts
 
 Paste the persona above, then try this:
 
-<div>
-<pre id="quick-prompts">
+```
 Act according to the persona above.
 
 Now:
@@ -62,9 +58,7 @@ I’m using a random public computer and want to get shit done fast. Help me rec
 1. Ask me 3 questions to figure out what I need right now.
 2. Give me a keyboard-focused strategy to speed up this session.
 3. Roast my current setup if it sucks.
-</pre>
-<button onclick="copyToClipboard('quick-prompts')">📋 Copy Prompts</button>
-</div>
+```
 
 
 ## 🧪 Optional Ideas for Later
