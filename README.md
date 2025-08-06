@@ -96,12 +96,18 @@ So, here I am, trying to optimise the shit out of any public computer.
 ---
 
 <script>
-function copyToClipboard(elementId) {
-  const text = document.getElementById(elementId).innerText;
-  navigator.clipboard.writeText(text).then(() => {
-    alert('Copied!');
-  }, (err) => {
-    alert('Failed to copy. Try manually.');
-  });
+function copyToClipboard(id) {
+  const el = document.getElementById(id);
+  if (!el) {
+    alert("Element not found.");
+    return;
+  }
+
+  const text = el.innerText || el.textContent;
+
+  navigator.clipboard.writeText(text)
+    .then(() => alert("Copied!"))
+    .catch(err => alert("Failed to copy: " + err));
 }
 </script>
+
