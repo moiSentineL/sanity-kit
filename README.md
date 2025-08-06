@@ -1,6 +1,6 @@
 # 🧠 Public Computer Sanity Kit (Lite Edition)
 
-> Minimal setup to reclaim sanity on public Windows computers. No admin rights. No patience lost.
+Minimal setup to reclaim sanity on public Windows computers. No admin rights. No patience lost.
 
 ---
 
@@ -8,8 +8,7 @@
 
 **📥 Download and run EPKL (no install required):**
 
-[EPKL.zip](assets/epkl.zip)
-[EPKL.zst](assets/epkl.zst)
+([zip](assets/epkl.zip) | [zst](assets/epkl.zst))
 
 (based on [EPKL v1-4-2](https://github.com/DreymaR/BigBagKbdTrixPKL/releases/tag/EPKL_1-4-2))
 
