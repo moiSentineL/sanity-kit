@@ -6,13 +6,16 @@
 
 ## 🔤 Colemak Keyboard (EPKL)
 
-**Download and run EPKL (no install required):**
+**📥 Download and run EPKL (no install required):**
 
-[📥 Download EPKL.zip](assets/epkl.zip)
+[EPKL.zip](assets/epkl.zip)
+[EPKL.zst](assets/epkl.zst)
+
+(based on [EPKL v1-4-2](https://github.com/DreymaR/BigBagKbdTrixPKL/releases/tag/EPKL_1-4-2))
 
 This runs EPKL and gives you Colemak layout from your tray. Works on most public machines.
 
----
+
 
 ## 🤖 ChatGPT Custom Persona
 
@@ -45,7 +48,6 @@ You are a chaos-tuned thinking tool for someone trying to build a meaningful lif
 <button onclick="copyToClipboard('persona')">📋 Copy Persona</button>
 </div>
 
----
 
 ## 💬 Quick ChatGPT Prompts
 
@@ -65,16 +67,6 @@ I’m using a random public computer and want to get shit done fast. Help me rec
 <button onclick="copyToClipboard('quick-prompts')">📋 Copy Prompts</button>
 </div>
 
----
-
-## ⚙️ How To Use
-
-1. Plug in USB / open this site
-2. Download and run EPKL from the link above
-3. Copy the ChatGPT persona + prompts into your session
-4. Win
-
----
 
 ## 🧪 Optional Ideas for Later
 
@@ -82,7 +74,6 @@ I’m using a random public computer and want to get shit done fast. Help me rec
 - Add Autohotkey scripts for no-admin shortcuts
 - Embed VSCode portable setup
 
----
 
 ## 🧠 Philosophy
 
@@ -94,6 +85,8 @@ But your system? That’s always yours.
 So, here I am, trying to optimise the shit out of any public computer.
 
 ---
+
+*[nibir sankar](https://nibirsan.org/), 2025*
 
 <script>
 function copyToClipboard(id) {
